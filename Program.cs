@@ -14,9 +14,11 @@ namespace RogueDungeonDistant
 
             int playerHealth = 100, maxHealth = 100, gold = 0,
                 posX = 0, posY = 0, enemyDamage = 0;
+            Console.BackgroundColor = ConsoleColor.Cyan;
             Console.WriteLine("#####");
             Console.WriteLine("#####");
             Console.WriteLine("#####");
+            Console.ResetColor();
             // отрисовываем игрока
             Console.SetCursorPosition(posX, posY);
             Console.ForegroundColor = ConsoleColor.Green;
